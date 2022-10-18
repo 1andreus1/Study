@@ -50,6 +50,9 @@ class ProductFilter:
                 yield p
 
 
+'''Рекомендуемая реализация через расширения'''
+
+
 class Specification:
     def is_satisfied(self, item):
         pass
